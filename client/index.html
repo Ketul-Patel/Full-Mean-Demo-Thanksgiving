@@ -1,0 +1,15 @@
+<html ng-app = "angularExpress">
+<head>
+	<title>Angular + Express Demo</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
+
+</head>
+<body ng-controller="MainCtrl">
+	<ul>
+		<li ng-repeat="friend in friends">{{friend.name}}</li>
+	</ul>
+	<input ng-model="new_friend">
+	<button ng-click="addFriend()">Add a Friend!</button>
+	<script type="text/javascript" src="angular.js"></script>
+</body>
+</html>
