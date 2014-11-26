@@ -14,6 +14,8 @@ angularExpress.controller('MainCtrl', function($scope, FriendFactory) {
 	}
 })
 
+// this is our change. gold star for finding it.
+
 angularExpress.factory('FriendFactory', function($http) {
 	var friends = [];
 	var factory = {};
